@@ -1,0 +1,40 @@
+[gd_scene load_steps=6 format=2]
+
+[ext_resource path="res://HPbg.jpeg" type="Texture" id=1]
+[ext_resource path="res://HomePageButtonPlay.png" type="Texture" id=2]
+[ext_resource path="res://HomePageButtonStatistics.png" type="Texture" id=3]
+[ext_resource path="res://HomePageButtonSave.png" type="Texture" id=4]
+[ext_resource path="res://HomePageButtonSettings.png" type="Texture" id=5]
+
+[node name="Node2D" type="Node2D" index="0"]
+
+position = Vector2( 0, 3 )
+
+[node name="HPbg" type="Sprite" parent="." index="0"]
+
+position = Vector2( 275.153, 482.071 )
+texture = ExtResource( 1 )
+_sections_unfolded = [ "Offset", "Pause", "Transform" ]
+
+[node name="HomePageButtonPlay" type="Sprite" parent="." index="1"]
+
+position = Vector2( 271.078, 470.627 )
+texture = ExtResource( 2 )
+
+[node name="HomePageButtonStatistics" type="Sprite" parent="." index="2"]
+
+position = Vector2( 274.169, 609.716 )
+texture = ExtResource( 3 )
+
+[node name="HomePageButtonSave" type="Sprite" parent="." index="3"]
+
+position = Vector2( 274.169, 751.896 )
+texture = ExtResource( 4 )
+_sections_unfolded = [ "Offset" ]
+
+[node name="HomePageButtonSettings" type="Sprite" parent="." index="4"]
+
+position = Vector2( 277.26, 894.076 )
+texture = ExtResource( 5 )
+
+

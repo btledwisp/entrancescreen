@@ -1,0 +1,121 @@
+[gd_scene load_steps=7 format=2]
+
+[ext_resource path="res://Pixel Art Clouds On Blue Background.jpeg" type="Texture" id=1]
+[ext_resource path="res://HomePageButtonPlay.png" type="Texture" id=2]
+[ext_resource path="res://Untitled24_20250627003916.png" type="Texture" id=3]
+[ext_resource path="res://HomePageButtonSave.png" type="Texture" id=4]
+[ext_resource path="res://HomePageButtonStatistics.png" type="Texture" id=5]
+[ext_resource path="res://HomePageButtonSettings.png" type="Texture" id=6]
+
+[node name="Node" type="Node" index="0"]
+
+[node name="PanelContainer" type="PanelContainer" parent="." index="0"]
+
+anchor_left = 0.0
+anchor_top = 0.0
+anchor_right = 0.0
+anchor_bottom = 0.0
+margin_right = 722.0
+margin_bottom = 1282.0
+rect_pivot_offset = Vector2( 0, 0 )
+mouse_filter = 0
+mouse_default_cursor_shape = 0
+size_flags_horizontal = 1
+size_flags_vertical = 1
+
+[node name="Pixel Art Clouds On Blue Background" type="Sprite" parent="PanelContainer" index="0"]
+
+position = Vector2( 360.016, 642.511 )
+scale = Vector2( 1.28882, 1.496 )
+texture = ExtResource( 1 )
+_sections_unfolded = [ "Offset", "Transform", "Z Index" ]
+
+[node name="HomePageButtonPlay" type="Sprite" parent="PanelContainer/Pixel Art Clouds On Blue Background" index="0"]
+
+position = Vector2( 2.00974, -128.382 )
+scale = Vector2( 1.0498, 1 )
+texture = ExtResource( 2 )
+_sections_unfolded = [ "Transform" ]
+
+[node name="TouchScreenButton" type="TouchScreenButton" parent="PanelContainer/Pixel Art Clouds On Blue Background/HomePageButtonPlay" index="0"]
+
+position = Vector2( -163.367, -61.2137 )
+scale = Vector2( 342.253, 124.23 )
+normal = null
+pressed = null
+bitmask = null
+shape = null
+shape_centered = true
+shape_visible = true
+passby_press = false
+action = ""
+visibility_mode = 0
+
+[node name="TitleChrozmo" type="Sprite" parent="PanelContainer" index="1"]
+
+position = Vector2( 352.489, 225.772 )
+scale = Vector2( 0.683507, 0.666673 )
+texture = ExtResource( 3 )
+
+[node name="HomePageButtonSave" type="Sprite" parent="." index="1"]
+
+position = Vector2( 363.472, 696.053 )
+scale = Vector2( 1.33981, 1.39425 )
+texture = ExtResource( 4 )
+_sections_unfolded = [ "Transform" ]
+
+[node name="TouchScreenButton" type="TouchScreenButton" parent="HomePageButtonSave" index="0"]
+
+position = Vector2( -163.767, 61.0039 )
+scale = Vector2( 326.028, -120.003 )
+normal = null
+pressed = null
+bitmask = null
+shape = null
+shape_centered = true
+shape_visible = true
+passby_press = false
+action = ""
+visibility_mode = 0
+
+[node name="HomePageButtonStatistics" type="Sprite" parent="." index="2"]
+
+position = Vector2( 367.356, 907.327 )
+scale = Vector2( 1.33499, 1.44882 )
+texture = ExtResource( 5 )
+
+[node name="TouchScreenButton" type="TouchScreenButton" parent="HomePageButtonStatistics" index="0"]
+
+position = Vector2( -162.118, 61.0797 )
+scale = Vector2( 324.798, -124.559 )
+normal = null
+pressed = null
+bitmask = null
+shape = null
+shape_centered = true
+shape_visible = true
+passby_press = false
+action = ""
+visibility_mode = 0
+
+[node name="HomePageButtonSettings" type="Sprite" parent="." index="3"]
+
+position = Vector2( 364.398, 1143.19 )
+scale = Vector2( 1.32766, 1.48938 )
+texture = ExtResource( 6 )
+
+[node name="TouchScreenButton" type="TouchScreenButton" parent="HomePageButtonSettings" index="0"]
+
+position = Vector2( -160.066, -60.8183 )
+scale = Vector2( 326.978, 122.459 )
+normal = null
+pressed = null
+bitmask = null
+shape = null
+shape_centered = true
+shape_visible = true
+passby_press = false
+action = ""
+visibility_mode = 0
+
+
